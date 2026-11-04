@@ -1,0 +1,959 @@
+﻿键,前缀,序号,文本,疑似枚举,枚举取值,绑定置信度,备注
+ST_2000003_Desc,ST_2000003_Desc,,民意值为过去半月的民意项（食物需求，住宿需求，燃料需求以及余粮等）结算，民意标准值为50；当民意值大于等于50且空余民夫帐篷大于1时，下月初新增1伍；当民意值大于等于60且空余民夫帐篷大于2时，下月初新增2伍；当民意值小于25时，下月初流失1伍。,,,,
+ST_HoverTips_Menke,ST_HoverTips_Menke,,"门客管理（需要1个中军大帐解锁）(快捷键 <key action=""IA_OpenMenu_Menke""/>)",,,,
+ST_HoverTips_Building,ST_HoverTips_Building,,"建筑建造(快捷键 <key action=""IA_OpenMenu_Construct""/>)",,,,
+ST_HoverTips_Road,ST_HoverTips_Road,,"道路建造(快捷键 <key action=""IA_OpenMenu_Route""/>)",,,,
+ST_HoverTips_Defense,ST_HoverTips_Defense,,"城防建造(快捷键 <key action=""IA_OpenMenu_Def""/>)",,,,
+ST_HoverTips_Transport,ST_HoverTips_Transport,,物流运输（需要2个物运场解锁）,,,,
+ST_HoverTips_Soldier,ST_HoverTips_Soldier,,"征召军队(快捷键 <key action=""IA_OpenMenu_Army""/>)",,,,
+ST_HoverTips_Info,ST_HoverTips_Info,,说明,,,,
+ST_HoverTips_Changeplace,ST_HoverTips_Changeplace,,迁移建筑,,,,
+ST_HoverTips_Destruct,ST_HoverTips_Destruct,,拆除建筑,,,,
+ST_HoverTips_Pin,ST_HoverTips_Pin,,固定面板,,,,
+ST_HoverTips_Close,ST_HoverTips_Close,,关闭面板,,,,
+ST_BuildingPages_1,ST_BuildingPages,1,采集,,,,
+ST_BuildingPages_2,ST_BuildingPages,2,民生,,,,
+ST_BuildingPages_3,ST_BuildingPages,3,农牧,,,,
+ST_BuildingPages_4,ST_BuildingPages,4,物流,,,,
+ST_BuildingPages_5,ST_BuildingPages,5,工造,,,,
+ST_BuildingPages_6,ST_BuildingPages,6,军备,,,,
+ST_BuildingPages_7,ST_BuildingPages,7,国家,,,,
+ST_Item_1,ST_Item,1,原木,,,,
+ST_Item_2,ST_Item,2,木材,,,,
+ST_Item_3,ST_Item,3,铁矿石,,,,
+ST_Item_4,ST_Item,4,铁锭,,,,
+ST_Item_5,ST_Item,5,铜矿石,,,,
+ST_Item_6,ST_Item,6,铜锭,,,,
+ST_Item_7,ST_Item,7,锡矿石,,,,
+ST_Item_8,ST_Item,8,玉原石,,,,
+ST_Item_9,ST_Item,9,璞,,,,
+ST_Item_10,ST_Item,10,石料,,,,
+ST_Item_11,ST_Item,11,石材,,,,
+ST_Item_12,ST_Item,12,黏土,,,,
+ST_Item_13,ST_Item,13,青铜短剑,,,,
+ST_Item_14,ST_Item,14,木盾,,,,
+ST_Item_15,ST_Item,15,皮甲胄,,,,
+ST_Item_16,ST_Item,16,青铜长戈,,,,
+ST_Item_17,ST_Item,17,兽皮,,,,
+ST_Item_18,ST_Item,18,铁制长戈,,,,
+ST_Item_19,ST_Item,19,弓,,,,
+ST_Item_20,ST_Item,20,铁制甲胄,,,,
+ST_Item_21,ST_Item,21,水,,,,
+ST_Item_22,ST_Item,22,铁制短剑,,,,
+ST_Item_23,ST_Item,23,黍,,,,
+ST_Item_24,ST_Item,24,麻,,,,
+ST_Item_25,ST_Item,25,稷,,,,
+ST_Item_26,ST_Item,26,粟,,,,
+ST_Item_27,ST_Item,27,菽,,,,
+ST_Item_28,ST_Item,28,牛,,,,
+ST_Item_29,ST_Item,29,马匹,,,,
+ST_Item_30,ST_Item,30,犬,,,,
+ST_Item_31,ST_Item,31,兽筋,,,,
+ST_Item_32,ST_Item,32,木柴,,,,
+ST_Item_33,ST_Item,33,木炭,,,,
+ST_Item_34,ST_Item,34,瓦缸,,,,
+ST_Item_35,ST_Item,35,檑木,,,,
+ST_Item_36,ST_Item,36,轴承,,,,
+ST_Item_37,ST_Item,37,轮毂,,,,
+ST_Item_38,ST_Item,38,投石杠杆,,,,
+ST_Item_39,ST_Item,39,铁链,,,,
+ST_Item_40,ST_Item,40,枣子,,,,
+ST_Item_41,ST_Item,41,兽肉,,,,
+ST_Item_42,ST_Item,42,肉膳,,,,
+ST_Item_43,ST_Item,43,米羹,,,,
+ST_Item_44,ST_Item,44,软质青铜锭,,,,
+ST_Item_45,ST_Item,45,硬质青铜锭,,,,
+ST_Item_46,ST_Item,46,工艺青铜锭,,,,
+ST_Item_47,ST_Item,47,滚石,,,,
+ST_Item_48,ST_Item,48,木箭,,,,
+ST_Item_49,ST_Item,49,铜箭,,,,
+ST_Item_50,ST_Item,50,羽毛,,,,
+ST_Item_51,ST_Item,51,小推车,,,,
+ST_Item_52,ST_Item,52,运输货车,,,,
+ST_BuildingName_1,ST_BuildingName,1,伐木场,,,,
+ST_BuildingName_2,ST_BuildingName,2,锯木坊,,,,
+ST_BuildingName_3,ST_BuildingName,3,柴火坊,,,,
+ST_BuildingName_4,ST_BuildingName,4,精炭窑,,,,
+ST_BuildingName_5,ST_BuildingName,5,采撷场,,,,
+ST_BuildingName_6,ST_BuildingName,6,猎场,,,,
+ST_BuildingName_7,ST_BuildingName,7,采矿场,,,,
+ST_BuildingName_8,ST_BuildingName,8,采石场,,,,
+ST_BuildingName_9,ST_BuildingName,9,黏土场,,,,
+ST_BuildingName_10,ST_BuildingName,10,辎重库,,,,
+ST_BuildingName_11,ST_BuildingName,11,粮仓,,,,
+ST_BuildingName_12,ST_BuildingName,12,庐舍,,,,
+ST_BuildingName_13,ST_BuildingName,13,伙房,,,,
+ST_BuildingName_14,ST_BuildingName,14,石工坊,,,,
+ST_BuildingName_15,ST_BuildingName,15,冶炼坊,,,,
+ST_BuildingName_16,ST_BuildingName,16,宝料作,,,,
+ST_BuildingName_17,ST_BuildingName,17,制甲坊,,,,
+ST_BuildingName_18,ST_BuildingName,18,弓矢坊,,,,
+ST_BuildingName_19,ST_BuildingName,19,国社,,,,
+ST_BuildingName_20,ST_BuildingName,20,亳社,,,,
+ST_BuildingName_21,ST_BuildingName,21,卜肆,,,,
+ST_BuildingName_22,ST_BuildingName,22,演武场,,,,
+ST_BuildingName_23,ST_BuildingName,23,医庐,,,,
+ST_BuildingName_24,ST_BuildingName,24,百器坊,,,,
+ST_BuildingName_25,ST_BuildingName,25,茅房,,,,
+ST_BuildingName_26,ST_BuildingName,26,精工坊,,,,
+ST_BuildingName_27,ST_BuildingName,27,机巧坊,,,,
+ST_BuildingName_28,ST_BuildingName,28,林衡,,,,
+ST_BuildingName_29,ST_BuildingName,29,铸兵坊,,,,
+ST_BuildingName_30,ST_BuildingName,30,驿站,,,,
+ST_BuildingName_31,ST_BuildingName,31,驿亭,,,,
+ST_BuildingName_32,ST_BuildingName,32,货栈,,,,
+ST_BuildingName_33,ST_BuildingName,33,中军帐,,,,
+ST_DefenseName_1,ST_DefenseName,1,城墙,,,,
+ST_DefenseName_2,ST_DefenseName,2,城防瓦缸,,,,
+ST_DefenseName_3,ST_DefenseName,3,城防投石机,,,,
+ST_DefenseName_4,ST_DefenseName,4,城防床弩,,,,
+ST_DefenseName_5,ST_DefenseName,5,登城梯,,,,
+ST_WorkerStatus_1,ST_WorkerStatus,1,搬运原材料,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_2,ST_WorkerStatus,2,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_3,ST_WorkerStatus,3,搬运建造材料,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_4,ST_WorkerStatus,4,建造,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_5,ST_WorkerStatus,5,平整地面,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_6,ST_WorkerStatus,6,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_7,ST_WorkerStatus,7,烧制产物,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_8,ST_WorkerStatus,8,搬运生活物资,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_9,ST_WorkerStatus,9,睡大觉,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_10,ST_WorkerStatus,10,活动身体,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_11,ST_WorkerStatus,11,喝水,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_12,ST_WorkerStatus,12,用餐,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_13,ST_WorkerStatus,13,烤火,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_14,ST_WorkerStatus,14,活动身体,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_15,ST_WorkerStatus,15,搬运燃料,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_16,ST_WorkerStatus,16,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_17,ST_WorkerStatus,17,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_18,ST_WorkerStatus,18,采集枣子,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_19,ST_WorkerStatus,19,往仓库搬东西,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_20,ST_WorkerStatus,20,狩猎野兽,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_21,ST_WorkerStatus,21,屠宰死尸,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_22,ST_WorkerStatus,22,回运猎物,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_23,ST_WorkerStatus,23,回运兽皮,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_24,ST_WorkerStatus,24,采矿中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_25,ST_WorkerStatus,25,宝料加工,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_26,ST_WorkerStatus,26,加工食物,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_27,ST_WorkerStatus,27,伐木,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_28,ST_WorkerStatus,28,修剪树枝,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_29,ST_WorkerStatus,29,搬运原木,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_30,ST_WorkerStatus,30,组装器械,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_31,ST_WorkerStatus,31,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_32,ST_WorkerStatus,32,搬运石料,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_33,ST_WorkerStatus,33,炼制金属锭,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_34,ST_WorkerStatus,34,石材加工,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_35,ST_WorkerStatus,35,木料加工,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_TimeSpeed_1,ST_TimeSpeed,1,暂停,,,,
+ST_TimeSpeed_2,ST_TimeSpeed,2,正常速度,,,,
+ST_TimeSpeed_3,ST_TimeSpeed,3,快进X3,,,,
+ST_TimeSpeed_4,ST_TimeSpeed,4,快进X8,,,,
+ST_BuildingPages_8,ST_BuildingPages,8,开发中,,,,
+ST_DefensePage_1,ST_DefensePage,1,城墙,,,,
+ST_DefensePage_2,ST_DefensePage,2,城防设施,,,,
+ST_BuildTips_1,ST_BuildTips,1,资源不足,,,,
+ST_BuildTips_2,ST_BuildTips,2,道路通行受阻,,,,
+ST_BuildTips_3,ST_BuildTips,3,地势过陡,,,,
+ST_BuildTips_4,ST_BuildTips,4,无控制权,,,,
+ST_BuildTips_5,ST_BuildTips,5,建筑重叠,,,,
+ST_BuildTips_6,ST_BuildTips,6,没有在指定位置吸附,,,,
+ST_BuildTips_7,ST_BuildTips,7,角度过小,,,,
+ST_BuildTips_8,ST_BuildTips,8,塔楼和城墙重叠错误,,,,
+ST_BuildTips_9,ST_BuildTips,9,与流民村庄重叠,,,,
+ST_BuildTips_10,ST_BuildTips,10,超出边界,,,,
+ST_MissionTitle_1,ST_MissionTitle,1,当前任务,,,,
+ST_Recruit_1,ST_Recruit,1,无武器,,,,
+ST_Recruit_2,ST_Recruit,2,无盔甲,,,,
+ST_Recruit_3,ST_Recruit,3,无盾牌,,,,
+ST_Recruit_4,ST_Recruit,4,未装备武器，请装备武器！,,,,
+ST_WorkerStatus_36,ST_WorkerStatus,36,祭祀中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_37,ST_WorkerStatus,37,闲逛,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_38,ST_WorkerStatus,38,正在从军,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_39,ST_WorkerStatus,39,未识别,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_40,ST_WorkerStatus,40,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_41,ST_WorkerStatus,41,种树,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_42,ST_WorkerStatus,42,驿亭物流,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_BuildingPanel_1,ST_BuildingPanel,1,生产,,,,
+ST_BuildingPanel_2,ST_BuildingPanel,2,工作,,,,
+ST_BuildingPanel_3,ST_BuildingPanel,3,概要,,,,
+ST_BuildingPanel_4,ST_BuildingPanel,4,居住,,,,
+ST_BuildingPanel_5,ST_BuildingPanel,5,祭祀,,,,
+ST_WorkerStatus_43,ST_WorkerStatus,43,搬运运输工具,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_Mission_1_T,ST_Mission_1_T,,兴建定居点（1/5）：基础建造,,,,
+ST_Mission_1_S,ST_Mission_1_S,,"木材是一切建筑的基本。
+
+点击下方面板的建筑按钮，选择伐木场。
+随后挑选一个靠近树林的地方进行建造。
+
+此外，经常翻看《盛舆万典》能够为您提供更多指引。",,,,
+ST_Mission_1_1,ST_Mission_1,1,建造伐木场,,,,
+ST_Mission_2_1,ST_Mission_2,1,建造采撷场,,,,
+ST_Mission_2_T,ST_Mission_2_T,,兴建定居点（3/5）：满足需求,,,,
+ST_Mission_2_S,ST_Mission_2_S,,"食物与住处能够提升民意。
+
+在冬季，民夫还需要消耗柴火。
+因此，未来您还需要提前建造柴火坊。",,,,
+ST_Mission_2_2,ST_Mission_2,2,建造庐舍,,,,
+ST_Mission_3_T,ST_Mission_3_T,,兴建定居点（5/5）：人口扩张,,,,
+ST_Mission_3_S,ST_Mission_3_S,,"保持高效的人口增长是您扩张的关键。
+
+拥有空庐舍和高民意会让更多伍投靠您。",,,,
+ST_Mission_3_1,ST_Mission_3,1,库存中有足量食物,,,,
+ST_Mission_3_2,ST_Mission_3,2,有足量的伍加入麾下,,,,
+ST_Mission_4_T,ST_Mission_4_T,,军事与扩张（1/3）：组织防御,,,,
+ST_Mission_4_S,ST_Mission_4_S,,"敌军精良的披甲部队正在进攻您定居点的路上。
+
+为此您需要建造防御工事，锻造金属武器。
+随后，组建一支真正的部队抵御侵略。",,,,
+ST_Mission_4_1,ST_Mission_4,1,建造铸兵坊,,,,
+ST_Mission_4_2,ST_Mission_4,2,拥有金属武器,,,,
+ST_Mission_5_T,ST_Mission_5_T,,发展铜器（2/4）：专职搬运,,,,
+ST_Mission_5_S,ST_Mission_5_S,,"在驿站工作的民夫能够使用小推车搬运物资。
+这会大大提高物资搬运的效率。",,,,
+ST_Mission_5_1,ST_Mission_5,1,建造驿站,,,,
+ST_Mission_6_T,ST_Mission_6_T,,军事与扩张（2/4）：占领流民村庄,,,,
+ST_Mission_6_S,ST_Mission_6_S,,"被您占领的流民村庄能够产出丰厚的资源。
+
+您需要让军队进入村庄中心的范围圈。
+一段时间后，占领圈变为蓝色，则已经占领。",,,,
+ST_Mission_6_1,ST_Mission_6,1,占领流民村庄,,,,
+ST_Mission_7_T,ST_Mission_7_T,,次要目标：村庄扩建,,,,
+ST_Mission_7_S,ST_Mission_7_S,,扩建村庄地块能够提升村庄产出。,,,,
+ST_Mission_7_1,ST_Mission_7,1,建造民居地块,,,,
+ST_Mission_7_2,ST_Mission_7,2,建造五谷地块,,,,
+ST_Mission_8_T,ST_Mission_8_T,,发展铜器（3/4）：铜矿与远距离运输,,,,
+ST_Mission_8_S,ST_Mission_8_S,,"开采铜矿，并使用货栈将铜矿石运送回定居点。
+
+《盛舆万典》物流界面会告诉您如何开始货栈间的运输。
+
+您需要清理野兽以保证铜矿和运输路线的安全。",,,,
+ST_Mission_8_1,ST_Mission_8,1,建造采矿场,,,,
+ST_Mission_8_2,ST_Mission_8,2,建造货栈,,,,
+ST_Mission_8_3,ST_Mission_8,3,拥有机巧坊,,,,
+ST_Mission_9_T,ST_Mission_9_T,,规划路线,,,,
+ST_Mission_9_S,ST_Mission_9_S,,物流路线能实现长距定向运输。,,,,
+ST_Mission_9_1,ST_Mission_9,1,指定物流路线,,,,
+ST_Mission_10_T,ST_Mission_10_T,,次要目标：招贤纳士,,,,
+ST_Mission_10_S,ST_Mission_10_S,,"中军帐能够招揽门客。
+
+门客会定期来到您的中军帐中。
+您可以支付刀币招募并指派他为您效命。",,,,
+ST_Mission_10_1,ST_Mission_10,1,建造中军帐,,,,
+ST_Mission_11_T,ST_Mission_11_T,,门客,,,,
+ST_Mission_11_S,ST_Mission_11_S,,让门客前往各处贡献自己的能力。,,,,
+ST_Mission_11_1,ST_Mission_11,1,招募门客,,,,
+ST_Mission_11_2,ST_Mission_11,2,指派门客,,,,
+ST_Mission_12_T,ST_Mission_12_T,,筑起高墙,,,,
+ST_Mission_12_S,ST_Mission_12_S,,城墙能够抵御敌人的进攻。,,,,
+ST_Mission_12_1,ST_Mission_12,1,建造城墙,,,,
+ST_Mission_13_T,ST_Mission_13_T,,构筑防御,,,,
+ST_Mission_13_S,ST_Mission_13_S,,城防设施能够强化防线。,,,,
+ST_Mission_13_1,ST_Mission_13,1,建造登城梯,,,,
+ST_Mission_13_2,ST_Mission_13,2,建造防御设施,,,,
+ST_Mission_14_T,ST_Mission_14_T,,军事与扩张（4/4）：攻城器械,,,,
+ST_Mission_14_S,ST_Mission_14_S,,"完整的器械生产链需要庞大的冶炼工业。
+
+完成其他次要目标，将有助于您建造攻城器械。
+精工坊能够生产机械构件，它们是攻城武器的必需部件。",,,,
+ST_Mission_14_1,ST_Mission_14,1,建造精工坊,,,,
+ST_Mission_15_T,ST_Mission_15_T,,战争器械,,,,
+ST_Mission_15_S,ST_Mission_15_S,,攻城器械是攻城战的胜利秘诀。,,,,
+ST_Mission_15_1,ST_Mission_15,1,组装冲车,,,,
+ST_Mission_15_2,ST_Mission_15,2,组装云梯,,,,
+ST_Mission_16_T,ST_Mission_16_T,,统治：剿灭敌寇,,,,
+ST_Mission_16_S,ST_Mission_16_S,,"现在，您已经拥有足够的实力组建一庞大的军队。
+
+当您准备好后，可以发起进攻。
+一劳永逸地解决觊觎您土地的势力。",,,,
+ST_Mission_16_1,ST_Mission_16,1,攻破敌军大营,,,,
+ST_Mission_17_T,ST_Mission_17_T,,次要目标：国社祭祀,,,,
+ST_Mission_17_S,ST_Mission_17_S,,"国社可以进行祭祀。
+祭祀会让您未来一年更加风调雨顺。",,,,
+ST_Mission_17_1,ST_Mission_17,1,建造国社,,,,
+ST_Mission_18_T,ST_Mission_18_T,,春社祭祀,,,,
+ST_Mission_18_S,ST_Mission_18_S,,成功祭祀能保佑一年风调雨顺。,,,,
+ST_Mission_18_1,ST_Mission_18,1,举行祭祀,,,,
+ST_BuildTips_11,ST_BuildTips,11,范围内有敌人,,,,
+ST_BuildTips_12,ST_BuildTips,12,距离我方建筑过远,,,,
+ST_RefugeeVillage_1,ST_RefugeeVillage,1,初始人口,,,,
+ST_RefugeeVillage_2,ST_RefugeeVillage,2,最大人口,,,,
+ST_RefugeeVillage_3,ST_RefugeeVillage,3,/月,,,,
+ST_RefugeeVillage_4,ST_RefugeeVillage,4,5人,,,,
+ST_RefugeeVillage_5,ST_RefugeeVillage,5,仲春,,,,
+ST_RefugeeVillage_6,ST_RefugeeVillage,6,仲夏,,,,
+ST_RefugeeVillage_7,ST_RefugeeVillage,7,仲秋,,,,
+ST_HoverTips_ArmyMenKe,ST_HoverTips_ArmyMenKe,,指派门客,,,,
+ST_HoverTips_JianShou,ST_HoverTips_JianShou,,原地固守,,,,
+ST_HoverTips_ZhuiJi,ST_HoverTips_ZhuiJi,,追击敌军,,,,
+ST_HoverTips_JieSan,ST_HoverTips_JieSan,,解散部队,,,,
+ST_HoverTips_GuaZai,ST_HoverTips_GuaZai,,云梯挂载,,,,
+ST_HoverTips_LiKaiGuaZai,ST_HoverTips_LiKaiGuaZai,,解除挂载,,,,
+ST_Task_1,ST_Task,1,拿取装备,,,,
+ST_WuWorkinfo_1,ST_WuWorkinfo,1,查看居住位置,,,,
+ST_WuWorkinfo_2,ST_WuWorkinfo,2,查看工作场所位置,,,,
+ST_WuWorkinfo_3,ST_WuWorkinfo,3,指定工作场所,,,,
+ST_HoverTips_BaiKeQuanShu,ST_HoverTips_BaiKeQuanShu,,"盛舆万典(快捷键 <key action=""IA_OpenMenu_Log""/>)",,,,
+ST_Menke_1,ST_Menke,1,解雇,,,,
+ST_Mission_19_T,ST_Mission_19_T,,发展铜器（4/4）：炼制铜锭,,,,
+ST_Mission_19_S,ST_Mission_19_S,,"金属矿石在冶炼坊可以炼制为铜锭。
+
+炼制铜锭需要燃料，如柴火和木炭。
+铜锭能够用于制造武器和盔甲。",,,,
+ST_Mission_19_1,ST_Mission_19,1,建造冶炼坊,,,,
+ST_Mission_20_T,ST_Mission_20_T,,兴建定居点（2/5）：物资加工,,,,
+ST_Mission_20_S,ST_Mission_20_S,,"加工后的材料具备新的用途。
+
+有些建筑拥有多个生产链。
+打开建筑面板，在生产页签查看生产链。",,,,
+ST_Mission_20_1,ST_Mission_20,1,建造锯木坊,,,,
+ST_Letter,ST_Letter,,"<FontRoboto_Regular_Size21_ColorNormal>12月冬至版本给玩家的一封信</>
+大家好：
+        冬至已至，见字如晤。
+        我们是《烽沙》开发团队。值此阴阳流转、万物归藏之时，这座边城的烽火，也迎来了它新一重的呼吸。
+        自上次新品节与诸位相逢后，我们收到了许多真诚的反馈、建议与鼓励，并逐字记下，视为照亮前路的烽燧
+        《烽沙》不仅是一款东方战争建造模拟游戏，更是一次在历史土壤中扎根生长的尝试。在这个“国无定疆，日有存亡”的动荡年代，您将扮演的并非执掌江山的帝王，而是坚守边陲的“守城人”——从一砖一瓦筑起城垒，调度百工，融汇百家之策，在大国博弈的缝隙之间，经营一场属于小邦的、有温度的生存。
+        本次“冬至版本”正是这一阶段的一次检验。它不仅是我们对承诺的践行，更是一次郑重的“呈阅”——我们已将重构的物流逻辑、初具雏形的野兽生态、更具温度的民夫生平，以及无数细节的优化，悉数呈现于此。
+        我们深知，它尚未完美。城池的轮廓仍显粗粝，新生的系统还需锤炼。因此，我们在此恳请您：以严师益友之心，体验这个版本。您的每一次卡顿、每一处困惑、每一条“若能这样便更好”的构想，都将成为我们修缮这座城池最珍贵的蓝图。
+        愿这次风雪中的试炼，能成为《烽沙》走向完整世界的一块基石。我们期待你的批评，你的策略，你的声音。
+        冬至一阳生。愿这份在至寒时节萌发的新芽，能借您之手，与我们共同守护，终将长成一片独属于东方的战略之林。
+    谨致
+        风雪同途，共筑边城
+                                                                                                                    《烽沙》开发团队 敬上
+                                                                                                                    癸卯年冬",,,,
+ST_HoverTips_Slim,ST_HoverTips_Slim,,最小化,,,,
+ST_HoverTips_Full,ST_HoverTips_Full,,最大化,,,,
+ST_WorkerStatus_44,ST_WorkerStatus,44,如厕,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_BuildTips_15,ST_BuildTips,15,种植面积过小,,,,
+ST_BuildTips_16,ST_BuildTips,16,种植面积过大,,,,
+ST_WorkerStatus_45,ST_WorkerStatus,45,生产中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_BuildTips_20,ST_BuildTips,20,未附着到城墙,,,,
+ST_BuildTips_21,ST_BuildTips,21,城墙过短,,,,
+ST_Mission_21_1,ST_Mission_21,1,建造采石场,,,,
+ST_Mission_21_S,ST_Mission_21_S,,"使用石料能够让您建造更多类型的建筑。
+辎重库能够将物资集中存放。",,,,
+ST_Mission_21_T,ST_Mission_21_T,,兴建定居点（4/5）：石料与储存,,,,
+ST_Mission_2_3,ST_Mission_2,3,建造水井,,,,
+ST_Mission_22_T,ST_Mission_22_T,,发展铜器（1/4）：清理铜矿野兽,,,,
+ST_Mission_22_S,ST_Mission_22_S,,"用民兵击退盘踞在铜矿周边的野兽。
+
+使用棍棒的民兵可以在早期训练。
+短棍可以在锯木坊切换生产链进行制造。
+
+当您不需要民兵时，可以解散他们让他们返回工作。",,,,
+ST_Mission_22_1,ST_Mission_22,1,在锯木枋生产木制短棍,,,,
+ST_Mission_22_2,ST_Mission_22,2,拥有足够的士兵,,,,
+ST_Mission_21_2,ST_Mission_21,2,建造辎重库,,,,
+ST_Mission_5_2,ST_Mission_5,2,建造机巧坊,,,,
+ST_Mission_5_3,ST_Mission_5,3,生产中,,,,
+ST_Mission_8_4,ST_Mission_8,4,生产中,,,,
+ST_Mission_19_2,ST_Mission_19,2,生产中,,,,
+ST_Mission_23_T,ST_Mission_23_T,,次要目标：村庄物资运输,,,,
+ST_Mission_23_S,ST_Mission_23_S,,"您可以为占领的村庄运输资源来协助其发展。
+利用货栈向村庄仓库运输10单位木板。",,,,
+ST_Mission_23_1,ST_Mission_23,1,村庄仓库拥有木板,,,,
+ST_Mission_24_T,ST_Mission_24_T,,军事与扩张（2/3）：高级冶炼,,,,
+ST_Mission_24_S,ST_Mission_24_S,,开采更多矿脉能够让您拥有更加先进的金属技术。,,,,
+ST_Mission_24_1,ST_Mission_24,1,拥有精铁锭,,,,
+ST_Mission_24_2,ST_Mission_24,2,拥有工艺青铜锭,,,,
+ST_Mission_24_3,ST_Mission_24,3,拥有硬质青铜锭,,,,
+ST_Mission_24_4,ST_Mission_24,4,拥有工艺青铜锭,,,,
+ST_Mission_14_2,ST_Mission_14,2,建造百器坊,,,,
+ST_Mission_14_3,ST_Mission_14,3,组装冲车,,,,
+ST_Mission_14_4,ST_Mission_14,4,组装云梯车,,,,
+ST_Mission_19_3,ST_Mission_19,3,拥有铜锭,,,,
+ST_WorkerDefaultCareer,ST_WorkerDefaultCareer,,民夫,,,,
+ST_Search,ST_Search,,搜索...,,,,
+ST_WorkerStatus_46,ST_WorkerStatus,46,货栈整理物品,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_47,ST_WorkerStatus,47,浇水,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_48,ST_WorkerStatus,48,拔草,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_49,ST_WorkerStatus,49,播种,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_Career_1,ST_Career,1,祭祀民,,,,
+ST_Career_2,ST_Career,2,制甲民,,,,
+ST_Career_3,ST_Career,3,制弓民,,,,
+ST_Career_4,ST_Career,4,烧炭民,,,,
+ST_Career_5,ST_Career,5,推货民,,,,
+ST_Career_6,ST_Career,6,制车民,,,,
+ST_Career_7,ST_Career,7,采土民,,,,
+ST_Career_8,ST_Career,8,占卜民,,,,
+ST_Career_9,ST_Career,9,处刑民,,,,
+ST_Career_10,ST_Career,10,精造民,,,,
+ST_Career_11,ST_Career,11,砍柴民,,,,
+ST_Career_12,ST_Career,12,采摘民,,,,
+ST_Career_13,ST_Career,13,栽种民,,,,
+ST_Career_14,ST_Career,14,医民,,,,
+ST_Career_15,ST_Career,15,狩猎民,,,,
+ST_Career_16,ST_Career,16,采矿民,,,,
+ST_Career_17,ST_Career,17,制玉民,,,,
+ST_Career_18,ST_Career,18,炊事民,,,,
+ST_Career_19,ST_Career,19,伐木民,,,,
+ST_Career_20,ST_Career,20,制械民,,,,
+ST_Career_21,ST_Career,21,捕役民,,,,
+ST_Career_22,ST_Career,22,狱卒民,,,,
+ST_Career_23,ST_Career,23,采石民,,,,
+ST_Career_24,ST_Career,24,祭祀民,,,,
+ST_Career_25,ST_Career,25,冶炼民,,,,
+ST_Career_26,ST_Career,26,石匠民,,,,
+ST_Career_27,ST_Career,27,物运民,,,,
+ST_Career_28,ST_Career,28,锯木民,,,,
+ST_Career_29,ST_Career,29,堆肥民,,,,
+ST_Career_30,ST_Career,30,车民,,,,
+ST_Career_31,ST_Career,31,铸兵民,,,,
+ST_WorkStatus_50,ST_WorkStatus,50,搬运祭品,,,,
+ST_EnemyEvent,ST_EnemyEvent,,敌军入侵,,,,
+ST_WorkStatus_51,ST_WorkStatus,51,运营医庐,,,,
+ST_WorkStatus_52,ST_WorkStatus,52,就医,,,,
+ST_WorkStatus_53,ST_WorkStatus,53,搬运药草,,,,
+ST_BtnName,ST_BtnName,,疫病,,,,
+ST_WorkStatus_54,ST_WorkStatus,54,加工药品,,,,
+ST_WorkStatus_55,ST_WorkStatus,55,采集药草,,,,
+ST_FakeWork_1,ST_FakeWork,1,添炭,,,,
+ST_FakeWork_2,ST_FakeWork,2,清理工作台,,,,
+ST_FakeWork_3,ST_FakeWork,3,检查物资,,,,
+ST_WorkerStatus_56,ST_WorkerStatus,56,收获,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_57,ST_WorkerStatus,57,犁地,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_58,ST_WorkerStatus,58,搬运水,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_59,ST_WorkerStatus,59,搬运肥料,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_60,ST_WorkerStatus,60,物流发货,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_50,ST_WorkerStatus,50,收集需求,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_51,ST_WorkerStatus,51,维护宅邸,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_61,ST_WorkerStatus,61,行刑,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_62,ST_WorkerStatus,62,处决罪犯,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_63,ST_WorkerStatus,63,被关押,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_64,ST_WorkerStatus,64,看守罪犯,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_65,ST_WorkerStatus,65,处刑准备,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_66,ST_WorkerStatus,66,拿取装备,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_67,ST_WorkerStatus,67,巡逻,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_68,ST_WorkerStatus,68,平叛中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_HoverTips_Rename,ST_HoverTips_Rename,,命名建筑,,,,
+ST_HoverTips_Sync,ST_HoverTips_Sync,,同步设置,,,,
+ST_BuildTips_22,ST_BuildTips,22,长度过短,,,,
+ST_BuildTips_23,ST_BuildTips,23,超出最大连接数,,,,
+ST_HoverTips_ResourceNotMeet,ST_HoverTips_ResourceNotMeet,,资源不足,,,,
+ST_HoverTips_Limitation,ST_HoverTips_Limitation,,已达上限,,,,
+ST_HoverTips_Locked,ST_HoverTips_Locked,,未解锁,,,,
+ST_HoverTips_Expand,ST_HoverTips_Expand,,展开,,,,
+ST_HoverTips_Result,ST_HoverTips_Result,,搜索结果,,,,
+ST_HoverTips_Indent,ST_HoverTips_Indent,,缩进,,,,
+ST_Minimap_North,ST_Minimap_North,,北,,,,
+ST_Minimap_South,ST_Minimap_South,,南,,,,
+ST_Minimap_East,ST_Minimap_East,,东,,,,
+ST_Minimap_West,ST_Minimap_West,,西,,,,
+ST_CountryName_1,ST_CountryName,1,齐,,,,
+ST_CountryName_2,ST_CountryName,2,楚,,,,
+ST_CountryName_3,ST_CountryName,3,燕,,,,
+ST_CountryName_4,ST_CountryName,4,韩,,,,
+ST_CountryName_5,ST_CountryName,5,赵,,,,
+ST_CountryName_6,ST_CountryName,6,魏,,,,
+ST_CountryName_7,ST_CountryName,7,秦,,,,
+ST_GatherPointSetFalse_1,ST_GatherPointSetFalse,1,设置失败：单位无法到达,,,,
+ST_GatherPointSetFalse_2,ST_GatherPointSetFalse,2,设置失败：被建筑或资源点阻挡,,,,
+ST_GatherPointSetFalse_3,ST_GatherPointSetFalse,3,设置失败：超出百器坊范围,,,,
+ST_HoverTips_Pickup,ST_HoverTips_Pickup,,批量拾取,,,,
+ST_HoverTips_Diplomacy,ST_HoverTips_Diplomacy,,"外交（需要爵位）(快捷键 <key action=""IA_OpenMenu_Diplomacy""/>)",,,,
+ST_HoverTips_ResourceInfo,ST_HoverTips_ResourceInfo,,资源视图,,,,
+ST_HoverTips_WaterInfo,ST_HoverTips_WaterInfo,,水资源分布图,,,,
+ST_HoverTips_SoilInfo,ST_HoverTips_SoilInfo,,土壤肥力视图,,,,
+ST_HoverTips_Route,ST_HoverTips_Route,,"道路建造(快捷键 <key action=""IA_OpenMenu_Route""/>)",,,,
+ST_HoverTips_Demolition,ST_HoverTips_Demolition,,批量编辑,,,,
+ST_HoverTips_ChangeNum,ST_HoverTips_ChangeNum,,修改数量,,,,
+ST_PopupBtn_Reset,ST_PopupBtn_Reset,,重置,,,,
+ST_PopupBtn_Cancel,ST_PopupBtn_Cancel,,取消,,,,
+ST_SearchHint,ST_SearchHint,,TAB键切换搜索类型,,,,
+ST_BuildTips_24,ST_BuildTips,24,与士兵/民夫重叠,,,,
+ST_BuildingStorage_01,ST_BuildingStorage,1,产物仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_02,ST_BuildingStorage,2,原料仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_03,ST_BuildingStorage,3,消耗品仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_04,ST_BuildingStorage,4,军械仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_05,ST_BuildingStorage,5,粪池,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_06,ST_BuildingStorage,6,燃料仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_07,ST_BuildingStorage,7,食物仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_08,ST_BuildingStorage,8,水仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_09,ST_BuildingStorage,9,采集仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_10,ST_BuildingStorage,10,礼品箱,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_11,ST_BuildingStorage,11,粮食仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_12,ST_BuildingStorage,12,药品仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_13,ST_BuildingStorage,13,上贡仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_14,ST_BuildingStorage,14,收货仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_15,ST_BuildingStorage,15,物资堆,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_16,ST_BuildingStorage,16,乡亭仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_17,ST_BuildingStorage,17,物资仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_18,ST_BuildingStorage,18,货栈仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_19,ST_BuildingStorage,19,肥料仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_20,ST_BuildingStorage,20,巢穴废墟,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_21,ST_BuildingStorage,21,野兽尸体,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_22,ST_BuildingStorage,22,枣子林,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_23,ST_BuildingStorage,23,锡矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_24,ST_BuildingStorage,24,铜矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_25,ST_BuildingStorage,25,铁矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_26,ST_BuildingStorage,26,石矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_27,ST_BuildingStorage,27,银矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_28,ST_BuildingStorage,28,玉矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_29,ST_BuildingStorage,29,猎物群,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_30,ST_BuildingStorage,30,盐矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_31,ST_BuildingStorage,31,草药滩,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_BuildingStorage_32,ST_BuildingStorage,32,粘土矿,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_AreaA,ST_AreaA,,玉带,,,,
+ST_AreaB,ST_AreaB,,丘山,,,,
+ST_AreaC,ST_AreaC,,翠苇洲,,,,
+ST_AreaD,ST_AreaD,,山君岭,,,,
+ST_WorkStatus_56,ST_WorkStatus,56,运营水井,,,,
+ST_TitleSkip,ST_TitleSkip,,"长按<key action=""IA_SkipAnim""/>跳过",,,,
+ST_UIDescription_00,ST_UIDescription,0,就近选人,,,,
+ST_UIDescription_01,ST_UIDescription,1,闲人优先,,,,
+ST_HoverTips_RejectHandOver,ST_HoverTips_RejectHandOver,,"忍无可忍，你断然拒绝了他们的要求。
+退一步就得步步都退，你已经不想再退了。
+让他们和你的军队谈去吧。",,,,
+ST_MagnetOn,ST_MagnetOn,,建造吸附开,,,,
+ST_MagnetOff,ST_MagnetOff,,建造吸附关,,,,
+ST_GameView_1,ST_GameView,1,需求视图,EMOGameViewType,Item / ,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_2,ST_GameView,2,安定度视图,EMOGameViewType,PublicOpinion / 舆论,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_3,ST_GameView,3,民夫分配视图,EMOGameViewType,Stability / ,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_4,ST_GameView,4,运行状态视图,EMOGameViewType,LaborAssign / ,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_5,ST_GameView,5,门客入驻视图,EMOGameViewType,RunningStatus / ,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_6,ST_GameView,6,疾病卫生视图,EMOGameViewType,MenKeSettle / ,低,序号与枚举值疑似有偏移，未确认
+ST_GameView_0,ST_GameView,0,快捷视图模式,EMOGameViewType,None / 流民村庄中心建筑,低,序号与枚举值疑似有偏移，未确认
+ST_WorkerStatus_69,ST_WorkerStatus,69,开采中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_SceneHintSwitch,ST_SceneHintSwitch,,建筑状态开关,,,,
+ST_WU_001,ST_WU,1,伍,,,,
+ST_WorkStatus_57,ST_WorkStatus,57,修缮车具,,,,
+ST_SaveGameSlot_1,ST_SaveGameSlot,1,版本错误,,,,
+ST_SaveGameSlot_2,ST_SaveGameSlot,2,文件损坏,,,,
+ST_SaveGameSlot_3,ST_SaveGameSlot,3,文件不完整,,,,
+ST_Popup_Save_Delete_1,ST_Popup_Save_Delete,1,删除存档,,,,
+ST_Popup_Save_Delete_2,ST_Popup_Save_Delete,2,存档删除后无法恢复，确定要删除该存档吗？,,,,
+ST_Popup_Save_Delete_3,ST_Popup_Save_Delete,3,删除,,,,
+ST_Popup_Save_Delete_4,ST_Popup_Save_Delete,4,取消,,,,
+ST_Batch_Default,ST_Batch_Default,,默认框选状态,,,,
+ST_Batch_Demolish,ST_Batch_Demolish,,批量拆除,,,,
+ST_Batch_Pick,ST_Batch_Pick,,主动拾取（按住Shift反选）,,,,
+ST_Batch_Upgrade,ST_Batch_Upgrade,,批量升级,,,,
+ST_Batch_SelectAll,ST_Batch_SelectAll,,全选,,,,
+ST_TopBar_RebellionLevelDesc_00,ST_TopBar_RebellionLevelDesc,0,太平,,,,
+ST_TopBar_RebellionLevelDesc_01,ST_TopBar_RebellionLevelDesc,1,暗流,,,,
+ST_TopBar_RebellionLevelDesc_02,ST_TopBar_RebellionLevelDesc,2,隐忧,,,,
+ST_TopBar_RebellionLevelDesc_03,ST_TopBar_RebellionLevelDesc,3,动荡,,,,
+ST_TopBar_RebellionLevelDesc_04,ST_TopBar_RebellionLevelDesc,4,危机,,,,
+ST_GameView_Locked,ST_GameView_Locked,,安定度视图-未解锁,,,,
+None,None,,工作,,,,
+ST_WorkerStatus_70,ST_WorkerStatus,70,运输中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerStatus_71,ST_WorkerStatus,71,屠宰工作,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_Farmland_Confirm,ST_Farmland_Confirm,,建造,,,,
+ST_Farmland_Cancel,ST_Farmland_Cancel,,取消,,,,
+ST_BuildTips_13,ST_BuildTips,13,需要放置在范围圈内,,,,
+ST_HoverTips_Settings,ST_HoverTips_Settings,,性能测试工具,,,,
+ST_Batch_Rebuild,ST_Batch_Rebuild,,城墙废墟批量重建,,,,
+ST_WorkerStatus_72,ST_WorkerStatus,72,祭祀中,?,,无,68 条，无同尺寸枚举；疑似任务状态 + 物品名混合
+ST_WorkerDefaultCareer_1,ST_WorkerDefaultCareer,1,栽植民,,,,
+ST_WorkerDefaultCareer_2,ST_WorkerDefaultCareer,2,屠户民,,,,
+ST_Reserve,ST_Reserve,,存量,,,,
+ST_NoMan,ST_NoMan,,建筑没有人,,,,
+ST_ProductReachedLimit,ST_ProductReachedLimit,,产物到达自设生产上限,,,,
+ST_MaterialConsumeReachedLimit,ST_MaterialConsumeReachedLimit,,原材料消耗到达限制,,,,
+ST_ProductStacked,ST_ProductStacked,,产物堆积,,,,
+ST_LackFuel,ST_LackFuel,,燃料不足,,,,
+ST_LackRawMaterial,ST_LackRawMaterial,,原材料不足,,,,
+ST_LackTransportCapacity,ST_LackTransportCapacity,,原料搬运排队中,,,,
+ST_SearchingWorkers,ST_SearchingWorkers,,民夫忙碌或缺员，请稍作等待,,,,
+ST_InThePlague,ST_InThePlague,,瘟疫中,,,,
+ST_CanNotFindAnyMatureTreesInTheArea,ST_CanNotFindAnyMatureTreesInTheArea,,范围内找不到成熟的树木,,,,
+ST_NewSaveGame,ST_NewSaveGame,,新存档,,,,
+ST_GatherStorageFull,ST_GatherStorageFull,,采集仓库已满,,,,
+ST_NoResourceNearby,ST_NoResourceNearby,,附近没有可采集资源,,,,
+ST_WorkStatus_58,ST_WorkStatus,58,准备叛乱中,,,,
+ST_BuildingStorage_33,ST_BuildingStorage,33,祭祀仓库,?,,无,33 条：1~20 仓储分类，21~33 资源点；无同尺寸枚举
+ST_Season_Spring,ST_Season_Spring,,春季,,,,
+ST_Season_Summer,ST_Season_Summer,,夏季,,,,
+ST_Season_Autumn,ST_Season_Autumn,,秋季,,,,
+ST_Season_Winter,ST_Season_Winter,,冬季,,,,
+ST_HoverTips_Customize,ST_HoverTips_Customize,,自定义,,,,
+ST_GameSave_00,ST_GameSave,0,存档已达上限,,,,
+ST_GameSave_01,ST_GameSave,1,存档名为空,,,,
+ST_GameSave_02,ST_GameSave,2,存档名重复,,,,
+ST_GameSave_03,ST_GameSave,3,保存失败,,,,
+ST_GameSave_04,ST_GameSave,4,读取失败,,,,
+ST_GameSave_05,ST_GameSave,5,删除失败,,,,
+ST_GameSave_06,ST_GameSave,6,保存中,,,,
+ST_GameSave_07,ST_GameSave,7,保存完成,,,,
+ST_GameSave_08,ST_GameSave,8,存档版本错误,,,,
+ST_GameSave_09,ST_GameSave,9,存档文件损坏,,,,
+ST_GameSave_10,ST_GameSave,10,存档文件不完整,,,,
+ST_SceneHint_1,ST_SceneHint,1,请批量拾取,,,,
+ST_MessageHistory_1,ST_MessageHistory,1,消息筛选展开/收起,,,,
+ST_MessageHistory_2,ST_MessageHistory,2,显示/隐藏,,,,
+ST_MessageHistory_3,ST_MessageHistory,3,全部消息,,,,
+ST_MessageHistory_4,ST_MessageHistory,4,建筑消息,,,,
+ST_MessageHistory_5,ST_MessageHistory,5,民生消息,,,,
+ST_MessageHistory_6,ST_MessageHistory,6,军事消息,,,,
+ST_MessageHistory_7,ST_MessageHistory,7,外交消息,,,,
+ST_MessageHistory_8,ST_MessageHistory,8,诸子百家消息,,,,
+ST_MessageHistory_9,ST_MessageHistory,9,其他消息,,,,
+ST_HoverTips_CreateArmy,ST_HoverTips_CreateArmy,,征召新部队,,,,
+ST_HoverTips_Tracking,ST_HoverTips_Tracking,,追踪民夫位置,,,,
+InProduction,InProduction,,生产中,,,,
+ST_BuildingPages_9,ST_BuildingPages,9,装饰品,,,,
+ST_BuildTips_26,ST_BuildTips,26,当前建筑不是有效的装饰建筑,,,,
+ST_BuildTips_27,ST_BuildTips,27,请将装饰摆放到支持装饰的建筑上,,,,
+ST_BuildTips_28,ST_BuildTips,28,该建筑尚未建造完成，无法摆放装饰,,,,
+ST_BuildTips_29,ST_BuildTips,29,该建筑不支持摆放装饰,,,,
+ST_BuildTips_30,ST_BuildTips,30,当前位置超出该装饰品的装饰摆放范围,,,,
+ST_BuildTips_31,ST_BuildTips,31,该建筑可摆放的装饰数量已达上限,,,,
+ST_BuildTips_32,ST_BuildTips,32,当前格子已被其他装饰占用,,,,
+ST_BuildTips_33,ST_BuildTips,33,该建筑的装饰网格配置无效,,,,
+ST_DecorationPages_Military,ST_DecorationPages_Military,,军事,,,,
+ST_DecorationPages_Street,ST_DecorationPages_Street,,街景,,,,
+ST_DecorationPages_Furniture,ST_DecorationPages_Furniture,,家具,,,,
+ST_DecorationPages_Production,ST_DecorationPages_Production,,生产,,,,
+ST_DecorationPages_Leisure,ST_DecorationPages_Leisure,,休闲,,,,
+ST_DecorationPages_Nature,ST_DecorationPages_Nature,,自然,,,,
+ST_HoverTips_Discard,ST_HoverTips_Discard,,丢弃,,,,
+ST_HoverTips_Delete,ST_HoverTips_Delete,,删除,,,,
+ST_HoverTips_CloseBackpack,ST_HoverTips_CloseBackpack,,关闭背包面板,,,,
+ST_ResourceDemolition,ST_ResourceDemolition,,删除自然资源,,,,
+ST_HoverTips_SelectTargetFromScene,ST_HoverTips_SelectTargetFromScene,,从场景中选择目标,,,,
+ST_HoverTips_SkipTargetPos,ST_HoverTips_SkipTargetPos,,跳转到目标位置,,,,
+ST_HoverTips_Collapse,ST_HoverTips_Collapse,,折叠,,,,
+ST_HoverTips_DeleteTransportationRoute,ST_HoverTips_DeleteTransportationRoute,,删除运输线路,,,,
+ST_BuildTips_25,ST_BuildTips,25,城门无法在此建造,,,,
+ST_HoverTips_OpenArmyDetail,ST_HoverTips_OpenArmyDetail,,部队详情,,,,
+ST_BuildingInfo_BindingStorehouse,ST_BuildingInfo_BindingStorehouse,,指定辎重库,,,,
+ST_BuildingInfo_BindingGranary,ST_BuildingInfo_BindingGranary,,指定粮仓,,,,
+ST_BuildingInfo_BindingArmoury,ST_BuildingInfo_BindingArmoury,,指定军械库,,,,
+ST_HoverTips_SkipHome,ST_HoverTips_SkipHome,,跳转到居住场所,,,,
+ST_HoverTips_SkipWorkplace,ST_HoverTips_SkipWorkplace,,跳转到工作场所,,,,
+ST_HoverTips_AssignHome,ST_HoverTips_AssignHome,,指定居住场所,,,,
+ST_HoverTips_AssignWorkplace,ST_HoverTips_AssignWorkplace,,指定工作场所,,,,
+T_1008_Text_02,T_1008_Text,2,建成1所辎重库,,,,
+T_Name_1012,T_Name,1012,教学：物流运输（1/4）,,,,
+T_Name_1011,T_Name,1011,教学：铜制武器（1/3）,,,,
+T_Name_1010,T_Name,1010,教学：发展与扩张（6/6）,,,,
+T_Name_1003,T_Name,1003,教学：民生与生产（3/6）,,,,
+T_Name_1002,T_Name,1002,教学：民生与生产（1/6）,,,,
+T_Name_1001,T_Name,1001,教学：基础操作,,,,
+T_Name_1009,T_Name,1009,教学：发展与扩张（5/6）,,,,
+T_Name_1008,T_Name,1008,教学：发展与扩张（3/6）,,,,
+T_Name_1007,T_Name,1007,教学：发展与扩张（2/6）,,,,
+T_Name_1006,T_Name,1006,教学：发展与扩张（1/6）,,,,
+T_Name_1005,T_Name,1005,教学：民生与生产（6/6）,,,,
+T_Name_1004,T_Name,1004,教学：民生与生产（5/6）,,,,
+T_1004_Text_02,T_1004_Text,2,采集5份枣子,,,,
+T_1004_Text_01,T_1004_Text,1,在枣子林旁放置采撷场地基,,,,
+T_1026_Text_02,T_1026_Text,2,建成1所军械库，并分配伍,,,,
+T_1003_Text_01,T_1003_Text,1,建成8所庐舍,,,,
+T_1002_Text_02,T_1002_Text,2,建成伐木场,,,,
+T_1002_Text_01,T_1002_Text,1,放置1座伐木场地基,,,,
+T_1001_Text_02,T_1001_Text,2,旋转视角,,,,
+T_1001_Text_01,T_1001_Text,1,移动视角,,,,
+T_Name_1015,T_Name,1015,教学：铜制武器（2/3）,,,,
+T_Name_1014,T_Name,1014,教学：物流运输（3/4）,,,,
+T_Name_1013,T_Name,1013,教学：物流运输（2/4）,,,,
+T_1005_Text_01,T_1005_Text,1,放置1座粮仓地基,,,,
+T_1007_Text_02,T_1007_Text,2,等待20根木制短棍生产完成,,,,
+T_1006_Text_01,T_1006_Text,1,建成1座锯木枋,,,,
+T_1006_Text_02,T_1006_Text,2,在锯木枋分配伍工作,,,,
+T_1007_Text_01,T_1007_Text,1,为新伍建成4所空庐舍,,,,
+T_1008_Text_01,T_1008_Text,1,在黏土矿旁建造黏土场地基,,,,
+T_1009_Text_01,T_1009_Text,1,组建一支军队,,,,
+T_1010_Text_01,T_1010_Text,1,清剿野兽并摧毁1个巢穴,,,,
+T_1011_Text_01,T_1011_Text,1,在铜矿旁放置采矿场地基,,,,
+T_1011_Text_02,T_1011_Text,2,在采矿场中分配伍工作,,,,
+T_1012_Text_01,T_1012_Text,1,机巧坊切换运输货车,,,,
+T_1013_Text_01,T_1013_Text,1,基地辎重库旁建造1座货栈,,,,
+T_1013_Text_02,T_1013_Text,2,铜矿采矿场旁建造1座货栈,,,,
+T_1014_Text_01,T_1014_Text,1,设置1条铜矿石的物流链路,,,,
+T_1015_Text_01,T_1015_Text,1,建成1所柴火坊,,,,
+T_1017_Text_01,T_1017_Text,1,建成1座中军帐,,,,
+T_Content_1001,T_Content,1001,"        按住键盘""<key action=""IA_MoveForward_W""/>""，""<key action=""IA_MoveLeft""/>""，""<key action=""IA_MoveForward_S""/>""，""<key action=""IA_MoveRight""/>""移动视角。
+        按住键盘""<key action=""IA_CameraBoardRotL""/>""，""<key action=""IA_CameraBoardRotR""/>""旋转视角。您也可以按住鼠标滚轮并移动（拖拽）鼠标，旋转视角。
+        当您移动到其它地方时，按""<key action=""IA_CameraReset""/>""可以立刻返回初始位置。",,,,
+T_Content_1002,T_Content,1002,"        打开下方建筑面板，在“采集”页签放置伐木场地基。您放下地基后，民夫会自行前往搬运建筑材料并进行建造。
+        民夫总是以伍为单位，您需要时刻保证留出空闲伍进行搬运和建造。
+        您可以随时点击问号进入《盛舆万典》，了解更多信息。",,,,
+T_Content_1003,T_Content,1003,"        在“民生”页签建造庐舍（按住Shift拖动鼠标可批量建造）。
+        庐舍会按月消耗物资并按照满足情况计算民意度。在冬季，庐舍会额外消耗燃料。
+        每个伍每月会产出5刀币。",,,,
+T_Content_1004,T_Content,1004,"        您可以在“采集”页签建造采撷场。
+        您需要在枣子林旁建造采撷场，确保枣子资源在白色的采集范围圈内（黄色高亮），这样民夫才能前往进行采集。",,,,
+T_Content_1005,T_Content,1005,"        您可以在“物流”页签建造粮仓。
+        粮仓没有搬运距离限制，在这里工作的民夫会将营地中的食物搬进粮仓。粮仓不会拾取已经在庐舍的食物。",,,,
+T_Content_1006,T_Content,1006,"        组建军队需要至少20名手持武器的民夫。木制短棍是最简单的武器。
+        您可以在“工造”页签建造锯木坊。当锯木枋完成后，点击锯木枋打开面板。
+        在面板上方选中“生产”页签，将配方切换为木制短棍，并且分配伍工作，他们会生产木制短棍。",,,,
+T_Content_1007,T_Content,1007,"        继续等待木制短棍生产到20根。
+        在此期间，您可以建造更多的庐舍，当庐舍数量大于当前伍数时，这些庐舍就会成为空庐舍。
+        民意满足，并且有足够的空庐舍时，每月初就会有新伍加入您的麾下。",,,,
+T_Content_1008,T_Content,1008,"        在黏土矿旁建造黏土场，再建造一座辎重库。
+        和粮仓类似，辎重库也需要伍进行搬运，可以存储除食物和武器外的所有物品。
+        黏土场在“采集”页签中，而辎重库在“物流”页签中。",,,,
+T_Content_1009,T_Content,1009,"        当您有至少20人时，点击下方“征召”按钮。
+        在征召界面选中盾兵并点击一键装配，此时会自动应用您当前拥有的武器。
+        随后，点击空地作为集结点，民夫会开始前往这里集结。",,,,
+T_Content_1010,T_Content,1010,"        左键选中部队，然后右键点击您想要部队前往的空地。
+        地图上，红色兽头图标的资源点就是野兽巢穴。
+        如果直接右键点击野兽巢穴，部队会无视任何敌人强拆巢穴。这样往往会造成严重伤亡。
+        当军队完成任务后，您可以点击兵牌栏上方的解散按钮解散他们，这会让他们回去工作。
+        清剿野兽后，可以使用左下方的批量拾取按钮，框选尸体和巢穴废墟，民夫会前来搬运战利品。",,,,
+T_Content_1011,T_Content,1011,"        接下来您可以开采铜打造真正的武器了。
+        找到铜矿，并且在铜矿旁边建造采矿场，派驻伍生产5块铜矿石。
+        您可以在“采集”页签建造采矿场。",,,,
+T_Content_1012,T_Content,1012,"        现在，您需要将开采的铜矿石运输回来，货栈是必不可少的物流建筑。
+        您可以切换当前机巧坊的配方，生产运输货车。或者，您也可以新建一座货栈，专门用来生产运输货车。",,,,
+T_Content_1013,T_Content,1013,"        接下来在“物流”页签建造货栈：一座靠近您新建的采矿场，另一座靠近基地的辎重库。
+        物资会在货栈之间进行远距离运输。货栈运行会持续消耗运输货车。",,,,
+T_Content_1015,T_Content,1015,"        接下来您需要花费时间完成一系列生产：
+        首先，在“工造”中建造柴火坊，生产木柴，冶炼坊需要持续消耗木柴作为燃料。",,,,
+T_1012_Text_02,T_1012_Text,2,生产运输货车,,,,
+T_1015_Text_02,T_1015_Text,2,在柴火坊中生产5份木柴,,,,
+T_1025_Text_02,T_1025_Text,2,生产榫卯木架,,,,
+T_1024_Text_01,T_1024_Text,1,建造冶炼坊并生产铜锭,,,,
+T_Content_1014,T_Content,1014,"        您可以点击采矿场旁的货栈，在“供应”页签中，选择铜矿石；再点击基地的货栈，在“需求”页签中，选择铜矿石。这样，您就完成了一条铜矿石的物流链路的基础配置。接着，您需要添派伍工作，此时货栈才能够运作。
+        默认的最小发货数量为10，这代表着采矿场旁的货栈有10个铜矿石时，才会运输至需求货栈。您可以随时调整这一数值。
+        现在矿场旁的货栈会持续供应铜矿石，给任何需要铜矿石的货栈。",,,,
+T_Content_1016,T_Content,1016,        最后，您可以在“军备”页签建造铸兵坊，准备生产20把铜制兵器。,,,,
+T_Name_1016,T_Name,1016,教学：铜制武器（3/3）,,,,
+T_1005_Text_02,T_1005_Text,2,建成粮仓,,,,
+T_1008_Text_03,T_1008_Text,3,在辎重库分配至少1伍,,,,
+T_1021_Text_01,T_1021_Text,1,建立国家,,,,
+T_1013_Text_03,T_1013_Text,3,完成两座货栈的建造,,,,
+T_Name_2001,T_Name,2001,教学：医疗,,,,
+T_Name_2002,T_Name,2002,教学：治愈民夫,,,,
+T_Name_2003,T_Name,2003,教学：治安,,,,
+T_2001_Text_01,T_2001_Text,1,在草药丛旁建造采撷场,,,,
+T_2002_Text_01,T_2002_Text,1,治愈1名生病的民夫,,,,
+T_2003_Text_01,T_2003_Text,1,建成1所乡亭,,,,
+T_2001_Text_02,T_2001_Text,2,拥有5份草药,,,,
+T_Content_2001,T_Content,2001,"        您的民夫在工作时可能会受伤或患病，为此您需要提前做好准备。
+        您可以在草药丛旁建造采撷场采集草药。接着，您需要在“民生”页签下建造一所医庐。
+        当民夫生病时，您可以在这里分配民夫作为医师，消耗草药或药品治疗患病的民夫。
+        治疗需要一些时间，在这期间病人不会工作。添派更多的伍会增加治疗的效率。 
+        使用高级药物也能够增加效率。这些药物需要在药房生产。",,,,
+T_Content_2002,T_Content,2002,"        难民们已经加入了您的营地，您可以分派人手给他们进行治疗。
+        治疗需要一些时间，在这期间病人不会工作。添派更多的伍会增加治疗的效率。
+
+        使用高级药物也能够增加效率。这些药物需要在药房生产。",,,,
+T_Content_2003,T_Content,2003,"        当您的人口发展壮大，您需要将精力投入社会治安当中。
+        在乡亭中工作的伍会维持治安。您也可以在《盛舆万典》的“营国”查看治安之道。",,,,
+T_Name_1017,T_Name,1017,教学：国事,,,,
+T_Name_1018,T_Name,1018,教学：百家与内政（1/3）,,,,
+T_Name_1019,T_Name,1019,教学：百家与内政（2/3）,,,,
+T_Name_1020,T_Name,1020,教学：百家与内政（3/3）,,,,
+T_Name_1021,T_Name,1021,教学：爵位与外交（1/3）,,,,
+T_Name_1022,T_Name,1022,教学：爵位与外交（2/3）,,,,
+T_Name_1023,T_Name,1023,教学：爵位与外交（3/3）,,,,
+T_Name_1030,T_Name,1030,教学：攻城器械（2/2）,,,,
+T_Name_1031,T_Name,1031,教学：礼祀,,,,
+T_1018_Text_01,T_1018_Text,1,招募门客,,,,
+T_1019_Text_01,T_1019_Text,1,建成1所门客宅邸,,,,
+T_1020_Text_01,T_1020_Text,1,派遣门客到技能对应的场所,,,,
+T_1022_Text_01,T_1022_Text,1,对任意国家完成1次朝贡,,,,
+T_1023_Text_01,T_1023_Text,1,完成1次贸易,,,,
+T_1030_Text_01,T_1030_Text,1,建成1座百器坊,,,,
+T_1031_Text_01,T_1031_Text,1,建成1座国社,,,,
+T_1031_Text_02,T_1031_Text,2,进行一次春社祭祀,,,,
+T_1019_Text_02,T_1019_Text,2,选择1名居住的门客,,,,
+T_1019_Text_03,T_1019_Text,3,指派伍照顾门客起居,,,,
+T_Content_1017,T_Content,1017,"        中军帐是您领地的核心建筑，您可以在这里讨封爵位、招揽门客和展开外交。
+        在这里工作的伍会搬运所需的物资。",,,,
+T_Content_1018,T_Content,1018,"        找到下方的门客按钮，进入门客界面，招募一名门客。
+        每月初都会有门客拜访您，你可以时常留意这里。",,,,
+T_Content_1019,T_Content,1019,"        和伍一样，门客需要宅邸来满足需求，未满足需求的门客满意度会持续降低。当满意度归零后会离开你。
+        当您建造好宅邸后，需要在建筑面板选择入住的门客。此外，您还需要安排伍搬运门客日常所需的物资。",,,,
+T_Content_1020,T_Content,1020,"        您需要建造猎场，生产肉膳为来满足门客的需求。
+        门客能够派遣到特定建筑或军队中。
+        他们会带来强大的增益。",,,,
+T_Content_1021,T_Content,1021,"        您可以点击讨封爵位，并且建立国家。
+        当满足升爵需求后，在这里工作的伍会将所需的材料从仓库运往中军帐。",,,,
+T_Content_1022,T_Content,1022,"        现在，您可以与其他国家展开外交了。
+        首先，您可以阅读来使的信件，这会提升与该国的关系。
+        其后，花费刀币进行朝贡能够额外提升外交关系。相同国家1个月中只能进行1次朝贡。",,,,
+T_Content_1023,T_Content,1023,"        打开外交面板的贸易页面，完成一次贸易。
+        您可以在贸易中，用自己多于的物品或刀币，换取需要的物品。
+        其他国家可贸易的物品每年都会重新补充。",,,,
+T_Content_1030,T_Content,1030,"        接下来，您需要在“军备”页签建造一所百器坊，这些零件会在百器坊中组装成攻城武器。
+        然后，您可以尝试先生产一辆云梯车，虽然它不能直接破坏墙体，但也足以让您的士兵登上敌方的城墙，清剿守卫。",,,,
+T_Content_1031,T_Content,1031,"        春社祭祀会在每年的二月间举行。
+        您可以提前建造国社并且在国社面板中收集物资，这会花费一些时间。
+        当物资收集完成后，您可以在二月期间打开国社面板，开始举办祭祀。
+        春社祭祀持续7天，完成后会取悦神明，让下一年中发生的事件更加风调雨顺。",,,,
+T_1004_Text_03,T_1004_Text,3,建成采撷场,,,,
+T_1025_Text_01,T_1025_Text,1,锯木坊切换到榫卯木架,,,,
+T_Name_1040,T_Name,1040,教学已完成,,,,
+T_1016_Text_01,T_1016_Text,1,建成1所铸兵坊,,,,
+T_1026_Text_01,T_1026_Text,1,拥有20把更好的兵器,,,,
+T_Content_1024,T_Content,1024,"        接下来，在“工造”中建造冶炼坊。
+        和之前一样，这次您需要生产铜锭，铜锭是打造铜制武器的重要材料。",,,,
+T_1027_Text_01,T_1027_Text,1,拥有20把更好的兵器,,,,
+T_Content_1025,T_Content,1025,"        随后，在精炭窑生产瓦片，瓦片是更高级的建筑材料。
+        您需要在锯木枋切换配方，生产榫卯木架，才能够建造精炭窑。
+        绝大多数“军备”建筑都需要瓦片来建造。",,,,
+T_2006_Text_01,T_2006_Text,1,建成至少4所空置庐舍,,,,
+T_2006_Text_02,T_2006_Text,2,建成至少4所空置庐舍,,,,
+T_2006_Text_03,T_2006_Text,3,建成至少4所空置庐舍,,,,
+T_2006_Text_04,T_2006_Text,4,建成至少4所空置庐舍,,,,
+T_2006_Text_05,T_2006_Text,5,建成至少4所空置庐舍,,,,
+T_2006_Text_06,T_2006_Text,6,建成至少4所空置庐舍,,,,
+T_2006_Text_07,T_2006_Text,7,建成至少4所空置庐舍,,,,
+T_Content_1026,T_Content,1026,"        您可以在铸兵坊生产铜剑或铜戈。
+        当您之后掌握精铁武器的冶炼后，甚至可以生产精铁武器。
+        同样地，您也需要在“物流”界面建造一座军械库来存放武器。",,,,
+T_Content_1027,T_Content,1027,"        您可以在铸兵坊生产铜制弓矢。
+        当您之后掌握精铁武器的冶炼后，甚至可以生产精铁武器。",,,,
+T_Name_1035,T_Name,1035,提示：猎物,,,,
+T_1028_Text_01,T_1028_Text,1,设置运输货车的物流链路,,,,
+T_1025_Text_03,T_1025_Text,3,建造精炭窑并生产瓦片,,,,
+T_Content_1028,T_Content,1028,"        与之前相反，为了保证铜矿旁的货栈能够持续运作，您需要向它供应运输货车。
+        您可以点击基地的货栈，在“供应”页签中，选择运输货车；再点击铜矿采矿场旁的货栈，在“需求”页签中，选择运输货车。",,,,
+T_Name_1028,T_Name,1028,教学：物流运输（4/4）,,,,
+T_1030_Text_02,T_1030_Text,2,生产1架云梯车,,,,
+T_Name_2006,T_Name,2006,提示：补充庐舍,,,,
+T_Name_2005,T_Name,2005,教学：农业（1/4）,,,,
+T_2005_Text_01,T_2005_Text,1,建成一片农田,,,,
+T_Content_2006_01,T_Content_2006,1,        您需要持续补充庐舍，以供人口增长。,,,,
+T_Content_2006_02,T_Content_2006,2,        继续补充庐舍。,,,,
+T_Content_2005,T_Content,2005,"        为了方便春季耕种，您可以在冬季时提前规划农田。
+        土地肥沃度、农田肥力和夏天的照料程度都会影响土地产量。
+        悉心照料的6亩地能供给6伍一年的伙食。",,,,
+T_1010_Text_02,T_1010_Text,2,解散部队让民夫返回工作,,,,
+T_1011_Text_03,T_1011_Text,3,开采5份铜矿石,,,,
+T_2001_Text_03,T_2001_Text,3,建成1所医庐,,,,
+T_Name_1032,T_Name,1032,教学：基础操作,,,,
+T_1032_Text_01,T_1032_Text,1,缩放视角,,,,
+T_1032_Text_02,T_1032_Text,2,缩放并切换到小地图,,,,
+T_Content_1032,T_Content,1032,"        鼠标滚轮可以放大和缩小画面，当缩到最小时，会切换到小地图。
+        您也可以点击屏幕右上角的时间控制按钮暂停或调整游戏速度。按“空格键”可以暂停/开始游戏。",,,,
+T_Name_1033,T_Name,1033,教学：专职搬运,,,,
+T_1033_Text_01,T_1033_Text,1,锯木坊切换配方生产木板,,,,
+T_1033_Text_02,T_1033_Text,2,建成1座机巧坊,,,,
+T_1033_Text_03,T_1033_Text,3,生产独轮推车,,,,
+T_Content_1033,T_Content,1033,"        您也许发现了，随着营地发展，搬运物资的效率会逐渐降低。
+        因此，建造驿站是个不错的选择，在驿站工作的伍能够提高周边建筑的搬运效率。
+        首先，您需要在“工造”中建造一座机巧坊来生产独轮推车。
+        生产独轮推车需要木板，为此您需要选中锯木枋，将木制短棍的生产配方切换到生产木板。",,,,
+T_Name_1034,T_Name,1034,教学：专职搬运,,,,
+T_1034_Text_01,T_1034_Text,1,建成1座驿站,,,,
+T_1034_Text_02,T_1034_Text,2,分配伍进行工作,,,,
+T_Content_1034,T_Content,1034,"        接下来，您需要在“物流”中建造1座驿站，并且分配伍进行搬运工作。
+        当驿站存在独轮推车时，会极大地提升范围内其他建筑（黄色高亮）的搬运效率。
+        驿站会持续消耗独轮推车。你需要确保驿站中有足够的独轮推车。",,,,
+T_1035_Text_01,T_1035_Text,1,获取猎获物,,,,
+T_1035_Text_02,T_1035_Text,2,建成1所屠宰场,,,,
+T_Content_1035,T_Content,1035,"        猎物不仅可以用来制作食物，还能制作兽皮和兽筋。
+        首先，您需要建造一座屠宰场，在这里切换配方以生产不同的物品。",,,,
+T_Name_1036,T_Name,1036,提示：获取额外食物,,,,
+T_1036_Text_01,T_1036_Text,1,建成1座伙房,,,,
+T_1036_Text_02,T_1036_Text,2,生产肉膳,,,,
+T_Content_1036,T_Content,1036,"        接下来，在“民生”页签中建造伙房。
+        伙房可以将屠宰场生产的兽肉制成肉膳。
+        您需要确保伙房有燃料来持续运作。",,,,
+T_Name_1037,T_Name,1037,教学：攻城器械（1/2）,,,,
+T_1037_Text_01,T_1037_Text,1,建成1座精工坊,,,,
+T_1037_Text_02,T_1037_Text,2,拥有轮毂,,,,
+T_1037_Text_03,T_1037_Text,3,拥有车架,,,,
+T_Content_1037,T_Content,1037,"        接下来，您可以尝试建造一批攻城器械，这些器械有助于您攻破敌方的防御工事。
+        首先，您需要在“工造”页签下建造精工坊，并且生产车架和轮毂。",,,,
+T_Name_2014,T_Name,2014,提示：制作护甲,,,,
+T_2014_Text_01,T_2014_Text,1,建成1所制甲坊,,,,
+T_2014_Text_02,T_2014_Text,2,制作5个皮甲,,,,
+T_Content_2014,T_Content,2014,"        在屠宰场制作的兽皮可以用来制作皮甲。
+        护甲和盾牌不是征召步兵的必需品，但是为军队列装这些辅助装备，可以大幅度提升军队的战斗能力。
+        您可以在“军备”页签中建造制甲坊。并且生产皮甲。",,,,
+T_Name_1038,T_Name,1038,教学：建造城墙,,,,
+T_1038_Text_01,T_1038_Text,1,建造一段木墙,,,,
+T_Content_1038,T_Content,1038,"        敌军将要发动突袭。
+        抵御袭击需要充分的准备，不仅需要部队，还需要坚固的防御工事。
+        您可以点击底部的“城防建造”按钮，并且在“城墙”页签中建造木墙。 
+        城墙建造完成后，您可以在“城墙”页签选中城门，建造在你想要的城墙段上。您可以打开城门的建筑面板，随时控制城门的开关。",,,,
+T_Name_1039,T_Name,1039,教学：建造城墙,,,,
+T_1039_Text_01,T_1039_Text,1,建造登城梯,,,,
+T_Content_1039,T_Content,1039,"        您的士兵需要通过登城梯登上城墙。您可以在“城防设施”页签中找到登城梯。
+        除拒马外的城防设施必须吸附在城墙上。",,,,
+T_1040_Text_01,T_1040_Text,1,完成所有基础教学,,,,
+T_1006_Text_03,T_1006_Text,3,“生产”页签切换到木制短棍生产,,,,
+T_Name_1044,T_Name,1044,教学：民生与生产（2/6）,,,,
+T_1044_Text_01,T_1044_Text,1,在伐木场分配伍工作,,,,
+T_1044_Text_02,T_1044_Text,2,砍伐树木并完成5次修剪,,,,
+T_Content_1044,T_Content,1044,"        建造完成后，点击伐木场分配伍工作。分配的伍会自行前往树木进行砍伐，砍伐后还需要进行修剪。
+        修剪完成后，原木还需要被搬运到伐木场仓库才可以使用。",,,,
+T_Name_1045,T_Name,1045,教学：民生与生产（4/6）,,,,
+T_1045_Text_01,T_1045_Text,1,建成1座水井,,,,
+T_Content_1045,T_Content,1045,        在“采集”页签建造水井。当您建造水井时，您可以通过水资源视图看到地下水储量。水井产生水的速率会受到地下水储量的影响。,,,,
+T_Name_2015,T_Name,2015,教学：农业（2/4）,,,,
+T_2015_Text_01,T_2015_Text,1,农田分配伍进行耕种,,,,
+T_Content_2015,T_Content,2015,"        春天是犁地和播种的季节，您可以在“种植”页签选择耕种的作物。
+        连年种植作物会导致农田肥力下降，因此设置休耕能够保证农田产量。
+        完成设置后，您就可以分配民夫耕作了。",,,,
+T_Name_2016,T_Name,2016,教学：农业（3/4）,,,,
+T_2016_Text_01,T_2016_Text,1,农田分配伍进行照料,,,,
+T_Content_2016,T_Content,2016,"        夏天是照料作物的季节，在这个季节，您需要消耗水和肥水灌溉农田，并且持续拔除杂草。
+        只要有一天没有安排足够的伍拔草，都会影响农田的最终产出。",,,,
+T_Name_2017,T_Name,2017,教学：农业（4/4）,,,,
+T_2017_Text_01,T_2017_Text,1,农田分配伍进行收获,,,,
+T_Content_2017,T_Content,2017,        秋天是收获的季节，您可以分配伍进行收获了。,,,,
+T_Name_2018,T_Name,2018,提示：生产柴火,,,,
+T_2018_Text_01,T_2018_Text,1,建成1所柴火坊,,,,
+T_2018_Text_02,T_2018_Text,2,拥有柴火,,,,
+T_Content_2018,T_Content,2018,        在冬季，您的民夫会需求燃料。为了避免民意下降，您需要提前准备过冬所需的燃料。,,,,
+T_1027_Text_02,T_1027_Text,2,建成1所军械库，并分配伍,,,,
+T_Content_1040,T_Content,1040,        您已经完全掌握如何治理一个定居点了。接下来，您可以自由探索。,,,,
+T_Name_2004,T_Name,2004,教学：国策,,,,
+T_2004_Text_01,T_2004_Text,1,在中军理政发布1次国策,,,,
+T_Content_2004,T_Content,2004,        百家论战在每年的2月开启。当您拥有门客时，您可以在中军帐点击“中军理政”开展会议，并且发布国策。您需要设置议题完成舌战，此后分配获得的国策烙印。,,,,
+T_Content_2019,T_Content,2019,"        肥水是保证秋季产量必不可少的农业用品。
+        您需要建造一所金汁窖，并且将每伍产生的排泄物制作成肥水。
+        在农田工作的伍会将这些肥水搬运到农田进行灌溉。",,,,
+T_2019_Text_01,T_2019_Text,1,在金汁窖中生产肥水,,,,
+T_Name_2019,T_Name,2019,提示：肥水,,,,
+T_1009_Text_02,T_1009_Text,2,在军械库中存放足量武器,,,,
+T_Content_1041,T_Content,1041,"        建立军械库后，会解锁征召部队功能。在这里工作的伍会收集武器，并且在征召时让民夫前来领取。
+        除此之外，每个伍中最多有3人能够响应征召，为了满足征召所需的20人，您需要至少7伍。",,,,
+T_Name_1041,T_Name,1041,教学：发展与扩张（4/6）,,,,
+T_1045_Text_02,T_1045_Text,2,在水井中分配伍收集水,,,,
+T_Name_6001,T_Name,6001,子爵 · 授土,,,,
+T_Content_6003,T_Content,6003,"        廼固我疆，翼翼我邦。
+        戍士桓桓，昼巡夜防。
+        你将巩固边防，整肃邦国，从此烽火彻夜，日夜警守。",,,,
+T_Name_6002,T_Name,6002,君爵 · 开邑,,,,
+T_Content_6002,T_Content,6002,"        廼筑我城，欣欣我民。
+        四方之彦，来仪来宾。
+        你将筑起城邦，百姓欢欣来归，从此四方贤才如鸟投林。",,,,
+T_Content_6001,T_Content,6001,"        廼辟斯壤，畇畇我乡。
+        黍稷穰穰，以祀以飨。
+        你将拥有第一块属于自己的土地，从此有名有姓。",,,,
+T_Content_6004,T_Content,6004,"        廼秉国纲，肃肃我堂。
+        四方之卿，来辅来匡。
+        你将执掌国家纲纪，朝堂肃然，从此四方卿士，令行如流。",,,,
+T_Content_6005,T_Content,6005,"        廼会诸侯，穆穆明堂。
+        玉帛煌煌，执圭执璋。 
+        你将召集诸侯会盟，盟约赫赫，玉帛昭彰，从此脩璜行礼，天下归心。",,,,
+T_Content_6006,T_Content,6006,"        廼践王位，昭昭有光。
+        四方之邦，自今以昌。
+        你将正天下之位，昭昭明德，从此四方邦国各安其序，自今而昌。",,,,
+T_Name_6003,T_Name,6003,伯爵：守境,,,,
+T_Name_6004,T_Name,6004,侯爵：执柄,,,,
+T_Name_6005,T_Name,6005,公爵：会盟,,,,
+T_Name_6006,T_Name,6006,天下归心,,,,
+T_6001_Text_01,T_6001_Text,1,将爵位提升至子爵,,,,
+T_6002_Text_01,T_6002_Text,1,将爵位提升至君爵,,,,
+T_6003_Text_01,T_6003_Text,1,将爵位提升至伯爵,,,,
+T_6004_Text_01,T_6004_Text,1,将爵位提升至侯爵,,,,
+T_6005_Text_01,T_6005_Text,1,将爵位提升至公爵,,,,
+T_6006_Text_01,T_6006_Text,1,称王,,,,
+T_Content_6000,T_Content,6000,"        兴建营地，收集足够的资源建立一座中军帐。
+        营帐立起来后。你将在这座帐里聚将、议事、等待天明。
+        中军帐就是你的第一个朝堂。",,,,
+T_Name_6000,T_Name,6000,开国立爵,,,,
+T_6000_Text_01,T_6000_Text,1,发展营地，建立中军帐,,,,
+T_Name_6007,T_Name,6007,《国颂》,,,,
+T_Content_6007,T_Content,6007,"        维王受命，昭昭有光。
+        抚有斯土，既安且昌。
+        百谷穰穰，兆民乐康。
+        群贤济济，庶政有章。
+        礼乐洋洋，四境宁康。
+        于万斯年，永保我邦。
+
+        宏伟王业，今日告成。昔日，你的名字尚无人知晓；如今，你的功绩已传遍四方。然而登临王位，并非传奇的终章。此后山河辽阔，岁月方长，更大的功业，仍待你亲手书写。",,,,
+T_6007_Text_01,T_6007_Text,1,自此，疆舆任大王经略,,,,
+T_1005_Text_03,T_1005_Text,3,在粮仓中分配至少1伍,,,,
+T_1041_Text_01,T_1041_Text,1,拥有7伍以备征召,,,,
+T_1020_Text_02,T_1020_Text,2,在狩猎区域旁建成1座猎场,,,,
+ST_KeyRebindButton1,ST_KeyRebindButton1,,"等待输入...
+(ESC 退出)",,,,
+ST_KeyRebindButton2,ST_KeyRebindButton2,,该按键不能输入,,,,

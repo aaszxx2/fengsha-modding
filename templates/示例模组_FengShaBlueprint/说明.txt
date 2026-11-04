@@ -1,0 +1,116 @@
+# 烽沙 · 营造蓝图 FengShaBlueprint v1.0
+
+把你自己存档里的**建筑布局**导出成一份「蓝图」，其他玩家导入后就能在各自的存档里
+复现同样的布局。纯 UE4SS Lua 模组，**不修改任何游戏文件**。
+
+---
+
+## 一、怎么用
+
+### 导出（分享给别人）
+
+1. 进游戏、进存档，把视角拉到能看到基地的位置；
+2. 按 **Ctrl+B**；
+3. 屏幕提示「蓝图已导出」，分享码**已经自动进了剪贴板** —— 直接粘到微信/Discord/QQ 给对方。
+
+同时会在 `Mods\FengShaBlueprint\blueprints\` 下留两个文件：
+- `基地_20261016_173000.json` —— 人类可读的布局（可用记事本打开看/改）
+- `基地_20261016_173000.fscb.txt` —— 分享码文本（剪贴板万一没拿到就用这个）
+
+### 导入（复现别人的布局）
+
+1. 先把对方给的分享码**复制到剪贴板**（整段复制，前后有空格换行都没关系）；
+2. 进游戏、进存档，**把角色走到你想放置的位置**（这就是蓝图的原点）；
+3. 按 **Ctrl+Shift+B**；
+4. 屏幕提示「蓝图已导入：成功 N 座」。
+
+放歪了按 **Ctrl+Shift+Z** 撤销（会把刚生成的那批建筑拆掉）。
+
+> 导入位置优先取**鼠标光标打在地面上的落点**；如果拿不到（某些视角/UI 遮挡），
+> 自动退回**角色当前位置**。日志里会写明这次用的是哪个。
+
+### 其它快捷键
+
+| 键 | 作用 |
+|---|---|
+| `Ctrl+B` | 导出蓝图 |
+| `Ctrl+Shift+B` | 导入蓝图（读剪贴板） |
+| `Ctrl+Shift+Z` | 撤销上一次导入 |
+| `Ctrl+F12` | 开关面板（说明 + 当前设置 + 状态） |
+| `Ctrl+F11` | 诊断（把环境信息写进 `dumps\diag_*.txt`） |
+
+---
+
+## 二、蓝图里都存了什么
+
+每栋建筑只存 5 个数：**配置ID + 相对锚点的 dx/dy/dz（厘米）+ 朝向（0.1度）**。
+
+- **配置ID 已经包含种类和等级**（例如 33=伐木场、40332=伐木场LV2、40333=伐木场LV3），
+  所以布局带等级，不需要额外字段。
+- 锚点 = 所有建筑位置的**质心**。导入时锚点对到你站的位置。
+- 分享码用紧凑文本 + base64，**约 23 字符/栋**：
+  - 60 栋 ≈ 1.6 KB
+  - 500 栋 ≈ 11.6 KB
+
+分享码格式（想自己解析的话）：
+```
+FSBP1:<base64( "v1|<名字>|<数量>|<配置ID,dx,dy,dz,朝向×10; ...>" )>
+```
+
+**默认不携带**：仓库里的物资、指派的民夫、施工进度。想带的话告诉我，可以加。
+
+---
+
+## 三、实现要点（给后续维护的人）
+
+| 用途 | 用的 API |
+|---|---|
+| 枚举建筑 | `UBuildingSubsystem.AllBuildings`（`TArray<AMOBuildingBase*>`） |
+| 读建筑标识 | `AInteractiveActorBase.ConfigID`、`BuildingFactionType`、`AMOBuildingBase.BuildingState` |
+| 生成建筑 | `UMOConstructSubsystem::FastConstructBuildingActor(ConfigID, FTransform, FactionType, bGround)` |
+| 撤销 | `UMOConstructSubsystem::TearDownBuilding(AActor*)` |
+| 写进存档 | `UEMSFunctionLibrary::SetActorSaveProperties(WorldContext, false, true, false, 0)`（EasyMultiSave） |
+| 地面吸附 | `FastConstructBuildingActor(..., bGround=true)` + `UMOBlueprintFunctionLibrary::GetCurLandscapeHeightAtLocation` |
+| 中文名 | `config_names.txt`（从逆向的 `MOInteractiveActorConfig` 表生成，219 条） |
+
+### 踩坑清单（照抄自 FengShaQoL / ZouYanMenKe 的实战经验）
+
+1. 调 UFUNCTION 一律 `fn(obj, ...)` 形式，**只判 nil 不判 type** —— CDO 上拿到的是
+   带 `__call` 的 userdata，判 `type(fn)=="function"` 会静默失败。
+2. 结构体**绝不取长度**（`#` 或 `:Num()` 会 native AV，`pcall` 拦不住），只按成员读。
+3. `FName` 用 `FName(s, 2)`（AddUnique），`FText` 用 `FText(s)`；
+   **不要**走 `Default__KismetTextLibrary:Conv_StringToText`（本工程上会原生 AV）。
+4. 常驻循环用 `ExecuteInGameThreadWithDelay` 低频调度，热路径不查 UObject。
+5. 主菜单世界跳过（拿不到 PlayerController 就不干活）。
+6. 所有 UObject 访问包 `pcall`。
+
+---
+
+## 四、还没在游戏里验证过的点（重要）
+
+这个模组是**离线写完的，还没进游戏跑过**。以下 4 处需要实测，出问题按 Ctrl+F11 把
+`dumps\diag_*.txt` 发我：
+
+1. **`AllBuildings` 能不能遍历**：主路径是 `ipairs` 遍历子系统数组。
+   若日志出现「遍历数组异常」，说明这个数组读不了，改用 `FindAllOf` 兜底（我可以改）。
+2. **`FTransform` 怎么造**：代码里有三条路径（`FTransform()` 构造器 → 借角色 Transform 改成员 →
+   直接传 Lua table），日志里会打印这次用的是哪条（`变换路径 xxx`）。
+   若生成时 `FastConstructBuildingActor` 报参数错，就是这条。
+3. **光标落点**：`GetHitResultUnderCursor` 的 out 参数在不同 UE4SS 版本里写法不一，
+   拿不到会自动退回角色位置（日志里写「来源：角色位置」）。
+4. **存档持久化**：`SetActorSaveProperties` 已按 EasyMultiSave 的签名调用，
+   但生成出来的建筑**能否在存档后仍然存在**必须实测（存一次档、退出、重进，看还在不在）。
+
+---
+
+## 五、安装
+
+把整个 `FengShaBlueprint` 文件夹放到：
+```
+<游戏>\MOProject\Binaries\Win64\ue4ss\Mods\FengShaBlueprint\
+```
+然后在同目录 `mods.txt` 里加一行：
+```
+FengShaBlueprint : 1
+```
+或者直接跑 `E:\fs_mod\scripts\install_blueprint_mod.sh`（自动完成上面两步并备份 mods.txt）。

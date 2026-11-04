@@ -1,0 +1,13 @@
+﻿建筑名,ConfigID,行键,建筑蓝图,仓储组件,仓库文案键,仓库中文,默认容量,文案来源
+辎重库,90002,Tutorial_11,BP_Building_Storehouse_T,WarehouseStorage,,,,
+粮仓,90003,NewRow_15_T,BP_Building_Granary_T,WarehouseStorage,,,,
+军械库,71,NewRow_81,BP_Building_Armoury,WarehouseStorage,ST_BuildingStorage_04,军械仓库,4000,自身
+军械库,90071,NewRow_114,BP_Building_Armoury,WarehouseStorage,ST_BuildingStorage_04,军械仓库,4000,自身
+货栈,37,NewRow_44,BP_Building_SupplyDepot,WarehouseStorage,ST_BuildingStorage_03,消耗品仓库,500,自身
+辎重库,2,NewRow_1,BP_Building_ZiZhong_LV1,WarehouseStorage,ST_BuildingStorage_17,物资仓库,1500,继承自 BP_Building_ZiZhong_Base
+辎重库,40022,Storehouse_LV2,BP_Building_ZiZhong_LV2,WarehouseStorage,ST_BuildingStorage_17,物资仓库,2500,继承自 BP_Building_ZiZhong_Base
+辎重库,40023,Storehouse_LV3,BP_Building_ZiZhong_LV3,WarehouseStorage,ST_BuildingStorage_17,物资仓库,4000,继承自 BP_Building_ZiZhong_Base
+辎重库,40024,Storehouse_Legacy,BP_Building_Storehouse,WarehouseStorage,ST_BuildingStorage_17,物资仓库,2000,自身
+粮仓,3,NewRow_2,BP_Building_LiangCang_LV1,WarehouseStorage,ST_BuildingStorage_11,粮食仓库,1500,继承自 BP_Building_LiangCang_Base
+粮仓,40032,Building_Granary_LV2,BP_Building_LiangCang_LV2,WarehouseStorage,ST_BuildingStorage_11,粮食仓库,2500,继承自 BP_Building_LiangCang_Base
+粮仓,40033,Building_Granary_LV3,BP_Building_LiangCang_LV3,WarehouseStorage,ST_BuildingStorage_11,粮食仓库,4000,继承自 BP_Building_LiangCang_Base

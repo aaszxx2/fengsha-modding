@@ -1,0 +1,15 @@
+# ============================================================================
+#  烽沙 · 消耗点调参  FengShaConsume  v1.0
+#  只写 int32 字段（ReserveDefault / CurrentReserve），不碰容器
+# ============================================================================
+
+Enabled      = true
+
+# 定时重扫并自动应用已保存的设置
+AutoApply    = true
+IntervalSec  = 10
+
+# 是否把敌方建筑也列出来（默认只列玩家）
+IncludeEnemy = false
+
+Verbose      = false

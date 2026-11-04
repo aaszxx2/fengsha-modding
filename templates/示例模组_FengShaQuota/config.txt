@@ -1,0 +1,59 @@
+# ============================================================================
+#  烽沙 · 辎重配额  FengShaQuota  v1.0
+#  改完需要重新进存档（或重启游戏）才生效
+# ============================================================================
+
+# 总开关。false = 模组完全不干预（面板也不统计）
+Enabled            = true
+
+# 执行模式
+#   off       只读：总览 / 缺口 / 提醒 / 复制，绝不改游戏状态   ← 默认，先确认不卡再升级
+#   capacity  容量闸门：某座库「设了配额的物资全部达标」时，把该库容量压到当前总量，
+#             游戏自己的「仓库已满」逻辑就会拒绝再送入；库存下降后自动恢复。
+#             （只调 SetCapacity，不动库存；容量不是 SaveGame，退出即还原）
+#   native    写游戏原生每物品上限 StorageMaxItems（实验性，先按 Ctrl+Shift+V 自检）
+EnforceMode        = off
+
+# 库存读取方式
+#   getter  只用 GetItemNum() 逐项问（只读 int32，最安全）        ← 默认
+#   array   直接遍历 TotalItemNumList.Items（一次拿全，但「读 TArray<USTRUCT>」
+#           在本作里是已知风险路径，出现过崩溃；确认稳定后再开）
+ReadMode           = getter
+
+# 额外把「目标」写进游戏原生的 RemoteDemandEntries（每物品需求量）
+# 与 EnforceMode 独立；建议先用 Ctrl+Shift+V 看自检结果再开
+NativeMirror       = false
+
+# 演练：只计算、只显示，不写任何游戏状态（排错时用）
+DryRun             = false
+
+# 扫描间隔（毫秒）。越小越及时，越大越省性能。默认 3000
+ScanIntervalMs     = 3000
+
+# 面板自动刷新间隔（毫秒）
+PanelRefreshMs     = 1000
+
+# HUD 提示停留时长（毫秒）
+HudMs              = 5000
+
+# 每次按 Ctrl+Shift+E / D 调整目标的步长
+TargetStep         = 50
+
+# 第一次给某物资设目标时的初始值（之后按步长加减）
+DefaultTarget      = 100
+
+# 是否把敌方辎重库也算进来（默认只统计玩家自己的建筑）
+IncludeEnemy       = false
+
+# 面板里最多列几座库（超过的折叠显示）
+MaxStoresInList    = 12
+
+# 面板是否显示选中物资的「在途数量」
+ShowIncoming       = true
+
+# 详细日志（每次容量变更都写 UE4SS.log）
+Verbose            = false
+
+# 只读模式（EnforceMode=off）且面板没开时，完全不扫描（零开销）
+# 想随时都有数据可看就设 false
+LazyWhenIdle       = true

@@ -1,0 +1,15 @@
+﻿建筑蓝图,组件节点,Capacity,ReserveMax,ReserveMin,ReserveDefault,bAllowUserSetReserve,bNeedItem,StorageFlag,StorageName
+BP_Building_Altar,ConsumeRitualStorage_GEN_VARIABLE,,,,,,,,ST_BuildingStorage_33
+BP_Building_Altar,IdleStorage_ZongMen17011_GEN_VARIABLE,50,,,,,,,
+BP_Building_Altar,StorageSelfIncrease_ZongMen17011_GEN_VARIABLE,,,,,,,,
+BP_Building_CivilianTent,ConsumeFoodStorage_GEN_VARIABLE,,10,,2,True,,,ST_BuildingStorage_07
+BP_Building_CivilianTent,ConsumeFuelStorage_GEN_VARIABLE,,10,,2,True,,,ST_BuildingStorage_06
+BP_Building_CivilianTent,ConsumeWaterStorage_GEN_VARIABLE,,10,,2,True,,,ST_BuildingStorage_08
+BP_Building_CivilianTent,IdleStorage_GEN_VARIABLE,,,,,,,,ST_BuildingStorage_05
+BP_Building_CivilianTent,StorageSelfIncrease_GEN_VARIABLE,,,,,,,,
+BP_Building_Hospital,HospitalStorage_GEN_VARIABLE,100,,,,,,HospitalStorage,ST_BuildingStorage_12
+BP_Building_Kitchen,ConsumeFuelStorage_GEN_VARIABLE,10,10,,5,True,,,ST_BuildingStorage_03
+BP_Building_Kitchen,IdleStorage_GEN_VARIABLE,120,,,,,,,ST_BuildingStorage_01
+BP_Building_Kitchen,MaterialStorage_GEN_VARIABLE,,,,,,,,ST_BuildingStorage_02
+BP_Building_Well,IdleStorage_GEN_VARIABLE,20,,,,,,,ST_BuildingStorage_08
+BP_Building_Well,StorageSelfIncrease_GEN_VARIABLE,,,,,,,,

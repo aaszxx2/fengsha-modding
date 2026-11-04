@@ -1,0 +1,61 @@
+================================================================================
+  《烽沙》存档结构导出  FengShaSaveDump  v1.0
+  纯 UE4SS Lua 模组 —— 只读，不改游戏状态、不写存档
+================================================================================
+
+一、为什么需要它
+--------------------------------------------------------------------------------
+  存档文件（Level/Mass/Player.sav）的载荷是压缩过的：
+    VSOM 容器头（32B）+ UE 包前导 + GVAS + 高熵载荷（熵 7.9+）
+  已排除 zlib / deflate / gzip / zstd / lz4 / lzma / Oodle / AES(pak key)。
+
+  继续猜算法性价比太低。这个模组换个方向：
+  **不去解文件，而是在游戏把存档反序列化成 USaveGame 对象之后，直接读对象。**
+
+二、它能给你什么
+--------------------------------------------------------------------------------
+  每次读档时，导出「哪个存档类、有哪些数组、每个数组多少条」：
+
+    MOMassSaveGame
+      SoldierEntities      1234 条
+      TeamEntities            6 条
+      MinFuEntities         482 条
+      WuEntities            517 条
+      ConstructEntities    2140 条
+      BeastEntities          63 条
+      StagehandEntities      11 条
+      [1] SaveUniqueID=1001  SaveSoldierType=3  Fragments=2
+      ...
+
+  这就是存档结构的骨架：哪个类、几个数组、量级多大、每条实体有哪些字段。
+  配合 `FEntitySaveData` 的定义（DAConfigName / SaveUniqueID / SaveTrans /
+  SaveSoldierType / EntityFragments），可以反推二进制布局。
+
+三、快捷键
+--------------------------------------------------------------------------------
+  Ctrl+F9    立即导出（扫描当前世界里所有 USaveGame 对象）
+  Ctrl+F8    开关「读档时自动导出」
+
+  输出目录：Mods\FengShaSaveDump\dumps\save_*.txt
+
+四、注意：USaveGame 对象只在读档/存档瞬间存在
+--------------------------------------------------------------------------------
+  游戏读完档后这些对象通常会被释放，所以 Ctrl+F9 手动导出多半是空的。
+  正确用法：保持 AutoDumpOnLoad = true，然后**读一次档**，就会自动落盘。
+
+五、安全边界
+--------------------------------------------------------------------------------
+  · 只读，不写任何游戏状态
+  · 默认只读「数组条数」和 int32/枚举字段
+  · FString / FText / FTransform 一律不读（本作读这些会崩，历史上有崩溃记录）
+  · 所有访问走 pcall
+
+六、逆向依据
+--------------------------------------------------------------------------------
+  UHTHeaderDump：
+    UEMSCustomSaveGame : USaveGame  { SaveGameName, bUseSaveSlot }
+    UEMSInfoSaveGame   : USaveGame  { SlotInfo }
+    UMOMassSaveGame    : USaveGame  { 7 个 TArray<FEntitySaveData> }
+    FEntitySaveData    { DAConfigName, SaveUniqueID, SaveTrans,
+                         SaveSoldierType, EntityFragments }
+================================================================================
